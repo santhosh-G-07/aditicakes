@@ -67,7 +67,7 @@ const Footer = () => {
                                 Instagram
                             </a>
                             <a
-                                href="https://wa.me/your-number"
+                                href="https://wa.me/919043129343"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="social-link whatsapp"

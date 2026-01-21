@@ -29,7 +29,7 @@ const Cart = () => {
 
         const message = `Hi! I'd like to order:\n\n${orderDetails}\n\nPlease let me know the total price and delivery details. Thank you!`;
 
-        window.open(`https://wa.me/your-number?text=${encodeURIComponent(message)}`, '_blank');
+        window.open(`https://wa.me/919043129343?text=${encodeURIComponent(message)}`, '_blank');
     };
 
     return (

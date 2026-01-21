@@ -28,7 +28,7 @@ const Home = () => {
                                 Explore Menu
                             </Link>
                             <a
-                                href="https://wa.me/91904312943?text=Hi! I'd like to order from Aditi Cakes"
+                                href="https://wa.me/919043129343?text=Hi! I'd like to order from Aditi Cakes"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-whatsapp"
@@ -134,7 +134,7 @@ const Home = () => {
                         <p>Contact us on WhatsApp or Instagram to place your order!</p>
                         <div className="cta-buttons">
                             <a
-                                href="https://wa.me/91904312943?text=Hi! I'd like to order from Aditi Cakes"
+                                href="https://wa.me/919043129343?text=Hi! I'd like to order from Aditi Cakes"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-whatsapp"

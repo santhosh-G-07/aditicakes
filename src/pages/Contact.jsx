@@ -25,7 +25,7 @@ const Contact = () => {
 
                             <div className="contact-methods">
                                 <a
-                                    href="https://wa.me/91904312943?text=Hi! I'd like to order from Aditi Cakes"
+                                    href="https://wa.me/919043129343?text=Hi! I'd like to order from Aditi Cakes"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="contact-method whatsapp"
@@ -140,7 +140,7 @@ const Contact = () => {
                         <p>Get in touch with us today and let's make your celebration special!</p>
                         <div className="cta-buttons">
                             <a
-                                href="https://wa.me/91904312943?text=Hi! I'd like to order from Aditi Cakes"
+                                href="https://wa.me/919043129343?text=Hi! I'd like to order from Aditi Cakes"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn btn-whatsapp btn-large"
