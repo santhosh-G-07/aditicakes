@@ -1,0 +1,221 @@
+.contact-page {
+    padding-top: 70px;
+}
+
+.contact-hero {
+    background: linear-gradient(135deg, var(--primary-light) 0%, #fff5f8 100%);
+    padding: var(--spacing-2xl) 0;
+    text-align: center;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-2xl);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.contact-intro {
+    color: var(--gray);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-xl);
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-normal);
+    box-shadow: 0 4px 20px var(--shadow);
+}
+
+.contact-method.whatsapp {
+    background: linear-gradient(135deg, #25D366, #20BA5A);
+    color: var(--white);
+}
+
+.contact-method.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: var(--white);
+}
+
+.contact-method:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px var(--shadow-hover);
+}
+
+.method-icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.method-details h3 {
+    color: var(--white);
+    margin-bottom: var(--spacing-xs);
+    font-size: 1.25rem;
+}
+
+.method-details p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-xs);
+    font-size: 0.95rem;
+}
+
+.method-link {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.business-hours {
+    background: var(--light-gray);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+}
+
+.business-hours h3 {
+    margin-bottom: var(--spacing-md);
+}
+
+.business-hours ul {
+    list-style: none;
+}
+
+.business-hours li {
+    padding: var(--spacing-xs) 0;
+    color: var(--dark);
+}
+
+.business-hours strong {
+    color: var(--primary);
+}
+
+.contact-faq h2 {
+    margin-bottom: var(--spacing-xl);
+}
+
+.faq-item {
+    margin-bottom: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background: var(--light-gray);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--primary);
+    transition: all var(--transition-normal);
+}
+
+.faq-item:hover {
+    background: var(--primary-light);
+    transform: translateX(5px);
+}
+
+.faq-item h3 {
+    color: var(--dark);
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.1rem;
+}
+
+.faq-item p {
+    color: var(--gray);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.contact-cta {
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    padding: var(--spacing-2xl);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    color: var(--white);
+}
+
+.contact-cta h2 {
+    color: var(--white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact-cta p {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-xl);
+    opacity: 0.95;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-large {
+    padding: 1.25rem 2.5rem;
+    font-size: 1.05rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 968px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .contact-method {
+        padding: var(--spacing-md);
+    }
+
+    .method-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .method-icon svg {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-hero {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .contact-method {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .business-hours {
+        padding: var(--spacing-md);
+    }
+
+    .faq-item {
+        padding: var(--spacing-sm);
+    }
+
+    .contact-cta {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-large {
+        width: 100%;
+    }
+}
